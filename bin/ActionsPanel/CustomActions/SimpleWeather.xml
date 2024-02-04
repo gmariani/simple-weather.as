@@ -1,0 +1,42 @@
+<customactions>
+    <actionspanel>
+          <folder name="CV Components" id="cv" VERSION="8" index="true" tiptext="Course Vector Components">
+            <folder name="DynamicWindow" id="[cv.dynamicwindow]" VERSION="8" index="true" tiptext="Dynamic Window">
+              <folder name="Methods" id="Methods" VERSION="8" tiptext="Dynamic Windows Methods">
+                <string object="[cv.DynamicWindow]" codehint="true" TEXT=".reScale();\n" VERSION="8" name="reScale" tiptext="Automatically set window size" />
+                <string object="[cv.DynamicWindow]" codehint="true" TEXT=".setSize(% xSize, ySize %);\n" VERSION="8" name="setSize" tiptext="Manually set window size" />
+                <string object="[cv.DynamicWindow]" codehint="true" TEXT=".positionContent(% xPosition, yPosition %);\n" VERSION="8" name="positionContent" tiptext="Set coordinates of content within component" />
+			  </folder>
+			  <folder name="Properties" id="Properties" tiptext="Properties of Dynamic Windows" version="8">
+				<string object="[cv.DynamicWindow]" TEXT=".autoScale" VERSION="8" name="autoScale" tiptext="Toggles autoscaling of border" />
+				<string object="[cv.DynamicWindow]" TEXT=".border" VERSION="8" name="border" tiptext="Theme border" />
+				<string object="[cv.DynamicWindow]" TEXT=".height" VERSION="8" name="height" tiptext="Component height" />
+				<string object="[cv.DynamicWindow]" TEXT=".width" VERSION="8" name="width" tiptext="Component width" />
+				<string object="[cv.DynamicWindow]" TEXT=".content" VERSION="8" name="content" tiptext="Assigned content movieclip" />
+				<string object="[cv.DynamicWindow]" TEXT=".theme" VERSION="8" name="theme" tiptext="Assigned theme movieclip" />
+				<string object="[cv.DynamicWindow]" TEXT=".startAlpha" VERSION="8" name="startAlpha" tiptext="Set initial opacity" />
+				<string object="[cv.DynamicWindow]" TEXT=".shadowAlpha" VERSION="8" name="shadowAlpha" tiptext="Set drop shadow opacity" />
+				<string object="[cv.DynamicWindow]" TEXT=".shadowStrength" VERSION="8" name="shadowStrength" tiptext="Set drop shadow strength" />
+            </folder>
+          </folder>
+    </actionspanel>
+	
+    <colorsyntax>
+		<identifier text="reScale" />
+		<identifier text="setSize" />
+		<identifier text="positionContent" />
+		<identifier text="autoScale" />
+		<identifier text="border" />
+		<identifier text="height" />
+		<identifier text="width" />
+		<identifier text="content" />
+		<identifier text="theme" />	
+		<identifier text="shadowAlpha" />	
+		<identifier text="shadowStrength" />
+		<identifier text="startAlpha" />		
+    </colorsyntax>
+	
+	<codehints>
+	  <typeinfo pattern="*_dw" object="cv.DynamicWindow" />
+	</codehints>
+</customactions>

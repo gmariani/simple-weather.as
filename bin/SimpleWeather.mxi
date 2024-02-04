@@ -1,0 +1,50 @@
+<macromedia-extension
+	name="Simple Weather"
+	version="1.0.0"
+	type="Flash component" >
+
+	<!-- List the required/compatible products -->
+	<products>
+		<product name="Flash" version="9" primary="true" />
+	</products>
+
+	<!-- Describe the author -->
+	<author name="Gabriel Mariani" />
+
+	<!-- Describe the extension -->
+	<description>
+		<![CDATA[
+		Course Vector - Simple Weather<br>
+		<br>
+		Revisions:<br>
+		v1.0.0: Initial Release<br>		
+		<br>
+		Generates Snow or Rain type effects. Just drag the component onto the stage and size it.<br>
+		Then in the parameters, enter the Linkage Id (now a Class name) of the item you want to use as<br>
+		a rain drop or a snowflake. The component comes preinstalled with a snow flake to get you started.
+		<br>
+		Gabriel Mariani - Course Vector<br>
+		www.coursevector.com
+		]]>
+	</description>
+
+	<!-- Describe the third-party license agreement -->
+	<license-agreement>
+		<![CDATA[
+		
+		]]>
+	</license-agreement>
+
+	<!-- Describe where the extension shows in the UI of the product -->
+	<ui-access>
+		<![CDATA[
+		This component can be accessed from the Components panel.
+		]]>
+	</ui-access>
+
+	<!-- Describe the files that comprise the extension -->
+	<files>
+		<file name="ActionsPanel/CustomActions/SimpleWeather.xml" destination="$flash/ActionsPanel/CustomActions/" />
+		<file name="Components/Course Vector/SimpleWeather.swc" destination="$flash/Components/Course Vector/" />
+	</files>
+</macromedia-extension>
